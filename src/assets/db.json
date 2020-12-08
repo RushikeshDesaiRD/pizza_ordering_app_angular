@@ -1,0 +1,76 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Alto Vino",
+      "category": "Veg",
+      "price": 67,
+      "des": "This stylish pizzeria with two HK locations does perfectly thin and crispy pizzas, with a range of gourmet toppings. Controversial",
+      "imageUrl": "https://bigseventravel.com/wp-content/uploads/2019/05/mother.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Alto Vino",
+      "category": "Non Veg",
+      "price": 27,
+      "des": "Cooked in artisan built wood fired ovens brought over from Naples, their Pizzaiolos take pride in making all pies to pizza Napoletana standard. ",
+      "imageUrl": "https://bigseventravel.com/wp-content/uploads/2019/05/Screenshot-2019-05-05-at-19.38.07.png"
+    },
+    {
+      "id": 3,
+      "name": "Bolivia",
+      "category": "Veg",
+      "price": 67,
+      "des": "This stylish pizzeria with two HK locations does perfectly thin and crispy pizzas, with a range of gourmet toppings. Controversial",
+      "imageUrl": "https://bigseventravel.com/wp-content/uploads/2019/05/mother.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Burratas",
+      "category": "Non Veg",
+      "price": 37,
+      "des": "A multi-award winning spot that’s always in the news as being one of the very best pizza spots,",
+      "imageUrl": "https://bigseventravel.com/wp-content/uploads/2019/05/Screenshot-2019-04-03-at-13.20.45.png"
+    }
+  ],
+  "cart": [
+    {
+      "pizza": {
+        "id": 3,
+        "name": "Bolivia",
+        "category": "Veg",
+        "price": 67,
+        "des": "This stylish pizzeria with two HK locations does perfectly thin and crispy pizzas, with a range of gourmet toppings. Controversial",
+        "imageUrl": "https://bigseventravel.com/wp-content/uploads/2019/05/mother.jpg"
+      },
+      "id": 1
+    }
+  ],
+  "register": [
+    {
+      "name": "Rushikesh Desai",
+      "username": "djhgkhrjk",
+      "email": "rushikeshmahavirdesaitwo@gmail.com",
+      "password": "sddjhf",
+      "id": 1
+    },
+    {
+      "name": "Rushikesh Desai",
+      "username": "jhjkhjk",
+      "email": "rushikeshmahavirdesaitwo2@gmail.com",
+      "password": "k",
+      "id": 2
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" [src]="item.imageUrl" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">
+      {{item.name}}
+      <span *ngIf="item.category === 'Non Veg'" class="badge badge-danger">{{item.category}}</span>
+      <span *ngIf="item.category === 'Veg'" class="badge badge-success">{{item.category}}</span>
+    </h5>
+    <h5>{{ item.price | currency:"INR" }}</h5>
+    <p class="card-text">{{item.des}}</p>
+    <span class="d-flex">
+      <!-- <a [routerLink]="['/item', item.id]">See More</a>
+      <br/> -->
+
+        <button class="btn btn-primary" (click)="AddToCart()">ADD TO CART</button>
+        <h3 *ngIf="!favCheck" (click)="addToFav()" style="margin-left:100px"><i class="fa fa-heart-o" aria-hidden="true"></i></h3>
+        <h3 *ngIf="favCheck" (click)="removeToFav()" style="margin-left:100px"><i class="fa fa-heart" aria-hidden="true"></i></h3>
+
+
+    </span>
+  </div>
+</div>

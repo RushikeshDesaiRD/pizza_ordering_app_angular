@@ -1,0 +1,5 @@
+<div class="row">
+  <div class="col-4 mt-1" *ngFor="let item of pizzaList">
+   <app-pizza [item]="item" [favCheck]="wishList.indexOf(item.id) > 0"></app-pizza>
+  </div>
+</div>
